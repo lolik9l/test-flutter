@@ -10,14 +10,14 @@ buildscript {
     }
 }
 
-android {
-    // Sceneform libraries use language constructs from Java 8.
-    // Add these compile options if targeting minSdkVersion < 26.
-    compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
-    }
-}
+// android {
+//     // Sceneform libraries use language constructs from Java 8.
+//     // Add these compile options if targeting minSdkVersion < 26.
+//     compileOptions {
+//         sourceCompatibility 1.8
+//         targetCompatibility 1.8
+//     }
+// }
 
 dependencies {
     // Provides ArFragment, and other UX resources.

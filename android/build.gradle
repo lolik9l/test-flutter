@@ -20,8 +20,6 @@ android {
 }
 
 dependencies {
-    …
-
     // Provides ArFragment, and other UX resources.
     implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.8.0'
 

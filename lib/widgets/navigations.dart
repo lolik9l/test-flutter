@@ -40,13 +40,13 @@ class _NavigationState extends State<Navigation> {
         selectedIndex: currentPageIndex,
         destinations: const <Widget>[
           NavigationDestination(
+            icon: Icon(Icons.view_in_ar),
+            label: 'Scene AR',
+          ),
+          NavigationDestination(
             selectedIcon: Icon(Icons.home),
             icon: Icon(Icons.home_outlined),
             label: 'Home',
-          ),
-          NavigationDestination(
-            icon: Badge(child: Icon(Icons.view_in_ar)),
-            label: 'Scene AR',
           ),
         ],
       ),

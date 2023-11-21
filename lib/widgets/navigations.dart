@@ -51,8 +51,8 @@ class _NavigationState extends State<Navigation> {
         ],
       ),
       body: <Widget>[
+        const ArSceneView(),
         const HomeView(title: 'Flutter AR Page'),
-        const ArSceneView()
       ][currentPageIndex],
     );
   }

@@ -7,7 +7,7 @@ import 'package:ar_flutter_plugin/ar_flutter_plugin.dart';
 import 'package:ar_flutter_plugin/datatypes/config_planedetection.dart';
 
 class ArSceneView extends StatefulWidget {
-  const ArSceneView({Key? key}) : super(key: key);
+  const ArSceneView({super.key});
   @override
   _ArSceneViewState createState() => _ArSceneViewState();
 }
@@ -19,7 +19,7 @@ class _ArSceneViewState extends State<ArSceneView> {
   bool _showPlanes = false;
   bool _showWorldOrigin = false;
   final bool _showAnimatedGuide = true;
-  final String _planeTexturePath = "assets/images/triangle.png";
+  final String _planeTexturePath = "../assets/images/triangle.png";
   final bool _handleTaps = false;
 
   @override
